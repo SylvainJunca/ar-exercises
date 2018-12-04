@@ -8,9 +8,9 @@ puts "Exercise 5"
 puts "----------"
 
 # Your code goes here ...
-@stores_revenue = Stores.sum(:annual_revenue)
-@number_of_stores = Stores.count
-@number_of_stores_over_million = Stores.where("annual_revenue > 1000000").count
+@stores_revenue = Store.sum(:annual_revenue)
+@number_of_stores = Store.count
+@number_of_stores_over_million = Store.where("annual_revenue > 1000000").count
 
 puts "Total revenue of all stores : $#{@stores_revenue}"
 puts "Average is $#{@stores_revenue / @number_of_stores}"

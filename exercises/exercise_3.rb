@@ -9,7 +9,7 @@ puts "----------"
 @store3 = Store.find(3)
 @store3.destroy
 
-puts "number of stores : #{Stores.count}"
+puts "number of stores : #{Store.count}"
 
 
 
