@@ -11,10 +11,10 @@ puts "----------"
 # Your code goes here ...
 
 
-@store1.employees.create(first_name: "Keith", last_name: "Mean", hourly_rate: 14)
-@store1.employees.create(first_name: "Chris", last_name: "Arsenault", hourly_rate: 14)
-@store2.employees.create(first_name: "Alisa", last_name: "Puppy", hourly_rate: 60)
-@store2.employees.create(first_name: "Valeria", last_name: "Spider", hourly_rate: 60)
+@store1.employees.create(first_name: "Keith", last_name: "Mean", hourly_rate: 40)
+@store1.employees.create(first_name: "Chris", last_name: "Arsenault", hourly_rate: 40)
+@store2.employees.create(first_name: "Alisa", last_name: "Puppy", hourly_rate: 100)
+@store2.employees.create(first_name: "Valeria", last_name: "Spider", hourly_rate: 100)
 @store1.employees.create(first_name: "Aaron", last_name: "Nice", hourly_rate: 80)
 @store2.employees.create(first_name: "Tim", last_name: "Nice", hourly_rate: 100)
 @store2.employees.create(first_name: "Sylvain", last_name: "Me", hourly_rate: 100)
